@@ -1,0 +1,51 @@
+@media screen and (min-width: 375px){
+
+    .body{
+        height: 98vh;
+    }
+
+    .central{
+        width: 18.17em;
+        height: 30em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.5em;
+
+        color: white;
+        background-color: var(--color-bgcard);
+        border-radius: 1.33em;
+        
+    }
+
+    .central_img{
+        width: 100%;
+        height: 15.25em;
+    }
+
+    .central_text{
+        background-color: var(--color-bgcard);
+        width: 100%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    .central_text_title{
+        font-weight: bold;
+        color: var(--color-white);
+        background-color: var(--color-bgcard);
+    }
+
+    .central_text_p{
+        font-size: 11px;
+        font-weight: 400;
+        background-color: var(--color-bgcard);
+    }
+
+
+
+}

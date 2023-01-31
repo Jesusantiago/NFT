@@ -1,0 +1,39 @@
+:root{
+
+    /* fondo main */
+    --color-bgmain: hsl(217, 54%, 11%);
+
+    /* fondo card */
+    --color-bgcard: hsl(216, 50%, 16%);
+
+    /* line */
+    --color-line: hsl(215, 32%, 27%);
+
+    /* blanco */
+    --color-white: hsl(0, 0%, 100%);
+}
+
+/* - Font size (paragraph): 18px */
+
+*{
+    font-size: 18px;
+    background-color: var(--color-bgmain);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.central_img{
+    background-image: url(image-equilibrium.jpg);       
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
