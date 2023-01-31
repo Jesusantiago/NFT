@@ -17,7 +17,6 @@
 
 *{
     font-size: 18px;
-    background-color: var(--color-bgmain);
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -25,6 +24,7 @@
 }
 
 .body{
+    background-color: var(--color-bgmain);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,8 +32,16 @@
 
 .central_img{
     background-image: url(image-equilibrium.jpg);       
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 
+}
+
+.usuary_photo{
+        
+    background-image: url(image-avatar.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }

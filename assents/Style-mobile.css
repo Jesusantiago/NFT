@@ -1,7 +1,7 @@
 @media screen and (min-width: 375px){
 
     .body{
-        height: 98vh;
+        height: 100vh;
     }
 
     .central{
@@ -11,10 +11,8 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        padding: 1.5em;
-
-        color: white;
-        background-color: var(--color-bgcard);
+        padding: 1.33em;
+           background-color: var(--color-bgcard);
         border-radius: 1.33em;
         
     }
@@ -25,27 +23,83 @@
     }
 
     .central_text{
-        background-color: var(--color-bgcard);
+
         width: 100%;
-        height: 40%;
+        height: 41%;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: flex-start;
     }
 
     .central_text_title{
-        font-weight: bold;
+        font-weight: 600;
+        font-size: 1.2em;
         color: var(--color-white);
-        background-color: var(--color-bgcard);
+
     }
 
     .central_text_p{
-        font-size: 11px;
-        font-weight: 400;
-        background-color: var(--color-bgcard);
+        font-size: 16px;
+        font-weight: lighter;
+        color: var(--color-white);
+
     }
 
+    .inf_date{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .icon_et{
+        margin-right: 0.3rem;
+    }
+
+    .central_text_value{
+        color: aqua;
+    }
+
+    .central_text_date{
+        font-size: 16px;
+        font-weight: 400;
+        color: var(--color-white);
+    }
+
+    .hr{
+        width: 100%;
+        border: 0.5px solid var(--color-line);
+    }
+
+    .usuary{
+        display: flex;
+        align-items: center;
+
+
+        /* margin-top: 8px; */
+    }
+
+    .usuary_photo{
+        width: 2rem;
+        height: 2rem;
+        border: 1px solid white;
+        border-radius: 50%;
+        margin-right: .9em;
+    }
+
+    .usuary_text{
+        font-size: 16px;
+        font-weight: 300;
+        color: var(--color-white);
+        margin-right: .2em;
+    }
+
+    .usuary_name{
+        font-size: 16px;
+        font-weight: 400;
+        color: var(--color-white);
+    }
 
 
 }
